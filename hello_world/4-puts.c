@@ -1,2 +1,2 @@
 #!/bin/bash
-idk yet
+int puts(const char* "Programming is like building a multilingual puzzle")
