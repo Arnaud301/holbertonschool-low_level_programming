@@ -7,16 +7,15 @@
 
 int main(void)
 {
-	char c = 97;
+	int c;
 
-	while (c < 123)
+	for (c = 97; c < 123; c++)
 	{
 		if (c == 113 || c == 101)
 		{
 			continue;
 		}
 		putchar(c);
-		c++;
 	}
 	return (0);
 }
