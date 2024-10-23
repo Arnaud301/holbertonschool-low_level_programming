@@ -7,15 +7,16 @@
 
 int main(void)
 {
-	int letters;
+	char c = 97;
 
-	for (letters > a; letters <= z; letters++)
+	while (c < 123)
 	{
-		printf(letters);
-		if (letters == q || letters == e)
+		if (c == 113 || c == 101)
 		{
-			continue();
+			continue;
 		}
+		putchar(c);
+		c++;
 	}
-	putchar('\n');
+	return (0);
 }
