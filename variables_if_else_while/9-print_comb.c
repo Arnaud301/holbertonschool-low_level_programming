@@ -3,21 +3,24 @@
 /**
  * main - Entry point
  *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int numba = 0;
+	short int c = 0;
 
-	while (numba < 10)
+	while (c < 10)
 	{
-		putchar(numba);
-		putchar(',');
-		putchar(' ');
-		numba++;
+		putchar('0' + c);
+		if (c != 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
+		c++;
 	}
-	putchar('\n');
+	putchar(10);
 
 	return (0);
 }
