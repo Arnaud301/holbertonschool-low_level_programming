@@ -3,7 +3,6 @@
 
 /**
  *print_numbers - print numbers
- *@i: its the variable thats gonna be printed
  * Return: Always 0.
  */
 void print_numbers(void)
