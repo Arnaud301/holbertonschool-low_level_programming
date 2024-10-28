@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
- *
+ *_isupper - checks if uppercase and return if it is one.
+ *@c: its the variable that is gonna be checked by isupper.
  * Return: Always 0.
  */
 int _isupper(int c)
