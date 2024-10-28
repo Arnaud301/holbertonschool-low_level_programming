@@ -6,7 +6,7 @@
  *@i: its the variable thats gonna be printed
  * Return: Always 0.
  */
-void print_numbers(i)
+void print_numbers(void)
 {
 	int i;
 
