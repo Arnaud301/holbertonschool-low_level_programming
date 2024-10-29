@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *print_numbers - print numbers
+ *more_numbers - print number b for a number of times
  * Return: Always 0.
  */
 void more_numbers(void)
