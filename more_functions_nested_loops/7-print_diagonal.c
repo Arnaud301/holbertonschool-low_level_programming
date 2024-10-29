@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *print_line - print n number of lines.
- *@n: number of lines.
+ *print_diagonals - print n number of lines.
+ *@n: number of diagonals.
  * Return: Always 0.
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
