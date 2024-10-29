@@ -2,8 +2,8 @@
 
 /**
 *print_diagonal - prints diagonals * n
-@n : idk
-Return: void
+*@n : idk
+*Return: void
 */
 
 void print_diagonal(int n)
