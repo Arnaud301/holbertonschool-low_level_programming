@@ -27,6 +27,12 @@ int main(void)
 		}
 		else if (c % 3 == 0 && c % 5 == 0)
 		{
+			if (c == 100)
+			{
+				printf("FizzBuzz");
+				putchar('\n');
+				continue;
+			}
 			printf("FizzBuzz");
 			printf(" ");
 			continue;
