@@ -34,7 +34,7 @@ int main(void)
 		printf("%d", c);
 		printf(" ");
 	}
-	printf("FizzBuzz");
+	printf("Buzz");
 	putchar('\n');
 	return (0);
 }
