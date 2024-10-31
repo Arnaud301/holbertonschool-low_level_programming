@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *void_puts - check the code
- *
+ *_puts - prints
+ *@str: interger
  * Return: Always 0.
  */
 void _puts(char *str)
