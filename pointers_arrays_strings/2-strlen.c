@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ *_strlen - idk
+ *@s: inter
  * Return: Always 0.
  */
 int _strlen(char *s)
