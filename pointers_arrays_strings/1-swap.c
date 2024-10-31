@@ -3,7 +3,9 @@
 
 /**
  * main - check the code
- *
+ *swap_int - swaps the 2 values
+ *@a: a integer value, soon ull be swapped little one.
+ *@b: b integer value, soon ull be swapped little one.
  * Return: Always 0.
  */
 void swap_int(int *a, int *b)
