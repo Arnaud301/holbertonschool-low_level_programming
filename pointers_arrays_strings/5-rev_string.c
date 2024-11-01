@@ -11,16 +11,13 @@ void rev_string(char *s)
 
 	while (s[end] != '\0')
 	{
-		_putchar(s[end]);
 		end++;
 	}
 	end--;
 	_putchar('\n');
 	while (end >= 0)
 	{
-		_putchar(s[end]);
 		end--;
 	}
 	_putchar('\n');
-	return;
 }
