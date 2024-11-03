@@ -9,7 +9,7 @@
 
 int _atoi(char *s)
 {
-	int i = 0, neg = 0;
+	int i = 0, neg = 1;
 	unsigned int res = 0;
 
 	while ((s[i] >= 0 && s[i] <= 47) || (s[i] >= 58 && s[i] < 127))
