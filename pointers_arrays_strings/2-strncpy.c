@@ -1,19 +1,13 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * _strcnp - .
- * @s1: IM STILL STANDING
- * @s2: after all this time
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: im still standing
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-int _strcnp(char *s1, char *s2)
+int _putchar(char c)
 {
-	int i = 0;
-
-	while (s1[i] == s2[i] && s1[i] != '\0')
-		i++;
-
-	return (s1[i] - s2[i]);
+	return (write(1, &c, 1));
 }
