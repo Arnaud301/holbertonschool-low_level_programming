@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _strcmp - .
+ * _strcnp - .
  * @s1: IM STILL STANDING
  * @s2: after all this time
  *
  * Return: im still standing
  */
 
-int _strcmp(char *s1, char *s2)
+int _strcnp(char *s1, char *s2)
 {
 	int i = 0;
 
