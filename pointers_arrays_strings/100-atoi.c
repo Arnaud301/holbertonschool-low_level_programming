@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * ZDSQDZQDQDSDQE
  * _atoi - idk
  * @s: idk
  * Return: idk
