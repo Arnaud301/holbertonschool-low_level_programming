@@ -1,13 +1,23 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _strncpy - idk
+ * @dest: idk
+ * @src: idk
+ * @n: idk
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: idk
  */
-int _putchar(char c)
+
+char *_strncpy(char *dest, char *src, int n)
+
 {
-	return (write(1, &c, 1));
+	int i;
+
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < n; i++)
+		dest[i] = '\0';
+
+	return (dest);
 }
