@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * _memset - idk
- * @s: idk
- * @b: idk
- * @n: idk
+ * _memcpy - idk
+ * @src: idk
+ * @dest: idk
  * Return: Always 0
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
