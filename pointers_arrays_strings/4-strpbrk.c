@@ -8,5 +8,16 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-
-
+		while (s == accept)
+		{
+			if (s != accept)
+			{
+				continue;
+			}
+			s++;
+			accept++;
+		}
+	if (s == NULL)
+		return (s);
+	return (s);
+}
