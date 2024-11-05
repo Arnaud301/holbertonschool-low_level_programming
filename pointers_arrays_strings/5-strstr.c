@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - function
- * @s: string
- * @accept: bytes to find in string
+ * _strstr - function
+ * @haystack: string
+ * @needle: bytes to find in string
  * Return: Always 0.
  */
 char *_strstr(char *haystack, char *needle)
@@ -18,11 +18,12 @@ char *_strstr(char *haystack, char *needle)
 
 			if (*haystack == *n)
 			{
-				return (haystack);
+				return (n);
 			}
-			n++;
+			else if (*haystack == '\0')
+				return (NULL);
+			haystack++;
 		}
-		haystack++;
 	}
 	return (NULL);
 }
