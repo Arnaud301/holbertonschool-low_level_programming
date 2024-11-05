@@ -2,21 +2,24 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * _strpbrk - function
+ * @s: string
+ * @accept: bytes to find in string
  * Return: Always 0.
  */
 char *_strpbrk(char *s, char *accept)
 {
-		while (s == accept)
+	char *a = accept;
+
+	while (s == a)
+	{
+		if (s != a)
 		{
-			if (s != accept)
-			{
-				continue;
-			}
-			s++;
-			accept++;
+			continue;
 		}
+		s++;
+		a++;
+	}
 	if (s == NULL)
 		return (s);
 	return (s);
