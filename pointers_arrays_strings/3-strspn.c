@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * _strspn - idk
+ * @s: idk
+ * @accept: idk
  * Return: Always 0.
  */
 unsigned int _strspn(char *s, char *accept)
