@@ -19,7 +19,7 @@ void _print_rev_recursion(char *s)
 	{
 		if (end == '\0')
 		{
-			end - count;
+			end -= count;
 		}
 		_putchar(s[end]);
 		end--;
@@ -27,5 +27,5 @@ void _print_rev_recursion(char *s)
 		_print_rev_recursion(s);
 	}
 	else
-		_putchar('\n')
+		_putchar('\n');
 }
