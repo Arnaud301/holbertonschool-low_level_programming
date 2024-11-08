@@ -1,10 +1,10 @@
  #include <stdio.h>
 
 /**
- * main - entry point
- * @argc: count of arguments
- * @argv: array countaining arguments
- * Return: always 0
+ *main - main
+ *@argc: idk
+ *@argv: array
+ *Return: always 0
  */
 
 int main(int argc, char *argv[])
