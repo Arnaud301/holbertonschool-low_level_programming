@@ -6,11 +6,11 @@
 int main(void)
 {
 	int a;
-	int A;
+	int b;
 
 	for (a = 97; a < 123; a++)
 		putchar(a);
-	for (A = 65; a < 90; A++)
+	for (b = 65; b < 90; b++)
 		putchar(A);
 	putchar('\n');
 	return (0);
