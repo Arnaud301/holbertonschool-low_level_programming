@@ -3,7 +3,7 @@
  *main - function
  *Return: 0 on sucess
  */
-int main(void)
+int _putchar(char c)
 {
 	putchar("_");
 	putchar("p");
