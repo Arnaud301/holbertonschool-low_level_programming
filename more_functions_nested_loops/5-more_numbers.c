@@ -1,0 +1,15 @@
+#include "main.h"
+/**
+ *more_numbers
+ *Return: 0
+ */
+void more_numbers(void)
+{
+	int a;
+
+	for (a = 0; a < 15; a++)
+	{
+		_putchar(a + '0');
+	}
+	return (0);
+}
