@@ -3,7 +3,7 @@
  *print_most_numbers - function
  *Return: 0 on sucess
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int a;
 
