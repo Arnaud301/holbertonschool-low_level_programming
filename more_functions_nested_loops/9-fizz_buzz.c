@@ -18,7 +18,7 @@ int main(void)
 			printf("Fizz");
 		if (i == 100)
 			continue;
-		_printf(' ');
+		printf(' ');
 	}
 	return (0);
 }
