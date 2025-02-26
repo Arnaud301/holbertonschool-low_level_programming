@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ *print_diagonal - function
+ *@n: int
  */
 void print_diagonal(int n)
 {
@@ -14,7 +14,7 @@ void print_diagonal(int n)
 	{
 		for (b = 0; b < a; b++)
 			_putchar(' ');
-			
+
 		_putchar(92);
 		_putchar('\n');
 	}
