@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *main - entry point
  *Return: 0
@@ -15,6 +16,9 @@ void main(void)
 			printf ("Buzz");
 		if ((i % 3 == 0) | (i % 5 != 0))
 			printf("Fizz");
+		if (i == 100)
+			continue;
+		_putchar(' ');
 	}
 	return (0);
 }
