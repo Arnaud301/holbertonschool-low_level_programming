@@ -4,7 +4,7 @@
  *main - entry point
  *Return: 0
  */
-void main(void)
+int main(void)
 {
 	int i;
 
