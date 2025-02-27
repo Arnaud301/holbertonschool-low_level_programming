@@ -1,4 +1,5 @@
 #include "main.h"
+#include "stdio.h"
 /**
  *
  *
@@ -12,7 +13,7 @@ void _puts(char *str)
 	{	
 		if (str[i] == '\0')
 			continue;
-		_putchar(str[i]);
+		putchar(str[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
