@@ -21,6 +21,6 @@ int main(void)
 		if (i == 100 && (i % 5 == 0))
 			printf("Buzz ");
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
