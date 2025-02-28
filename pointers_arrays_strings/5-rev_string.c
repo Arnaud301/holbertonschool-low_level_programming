@@ -4,27 +4,19 @@
  *@s: string
  *Return: lenght
  */
-int _strlen(char *s)
+int _rev_string(char *s)
 {
-        int i = 0;
+	int a = 0, b = 0, len = 0, c = 0;
 
-        if (s[i] == '\0')
-                return (0);
-        while (s[i] != '\0')
-                i++;
-        return (i);
-}
-/**
- *rev_string - function 2
- *@s: string
- */
-void rev_string(char *s)
-{
-	int a = _strlen(s);
-
-	while (a > 0)
+	while (s[a] != '\0')
+		a++;
+	b = a - 1;
+	while (len < a / 2)
 	{
-		s = s[a];
-		a--;
+		c = s[len];
+		s[len] = s[b];
+		s[b] = c;
+		len++;
+		b--;
 	}
 }
