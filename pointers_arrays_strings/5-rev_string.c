@@ -4,7 +4,7 @@
  *@s: string
  *Return: lenght
  */
-void _rev_string(char *s)
+void rev_string(char *s)
 {
 	int a = 0, b = 0, len = 0, c = 0;
 
