@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stddef.h>
 /**
- *
- *
+ *puts2 - function
+ *@str: string
  */
 void puts2(char *str)
 {
