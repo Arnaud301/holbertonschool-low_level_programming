@@ -6,9 +6,9 @@
  */
 char *_strchr(char *s, char c)
 {
-	for (; s != c; s++)
+	for (; *s != c; s++)
 	{
-		if (s == c)
+		if (*s == c)
 		{
 			return (s);
 		}
