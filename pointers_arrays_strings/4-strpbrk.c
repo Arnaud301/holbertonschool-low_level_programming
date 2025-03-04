@@ -1,27 +1,22 @@
 #include "main.h"
 /**
- *
- *
- *
+ *_strpbrk - function
+ *@s: char
+ *@accept: char
+ *Return: char
  */
 char *_strpbrk(char *s, char *accept)
 {
-	int i, j, a = 0;
+	int a, i = 0;
 
-	while (s[i] != accept[j])
+	while (s[i] != '\0')
 	{
-		if (s[i] == accept[j])
+		for (a = 0; accept[a] != '\0'; a++)
 		{
-			i++;
-			j = 0;
+			if (s[i] == accept[a])
+				return ((char *)(s + i));
 		}
-		if (j == '\0')
-		{
-			a++;
-			s++;
-			j = 0;
-		}
-		j++;
+		i++;
 	}
-	return (s);
-}			
+	return ('\0');
+}
