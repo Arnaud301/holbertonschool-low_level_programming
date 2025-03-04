@@ -15,7 +15,7 @@ char *_strpbrk(char *s, char *accept)
 			i++;
 			j = 0;
 		}
-		else if (j == '\0')
+		if (j == '\0')
 		{
 			a++;
 			s++;
