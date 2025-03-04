@@ -1,24 +1,38 @@
 #include "main.h"
 /**
- *
- *
- *
+ *_str_str - function
+ *@haystack: char
+ *@needle: char
+ *Return: char
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int i = 0;
-	int j = 0;
+	char *i;
+	char *j;
 
-	if (needle[i] == '\0')
-		return (haystack);
+	j = needle;
 
-	while (haystack[i] != needle[j])
+	if (*j == 0)
+		return ((char *) haystack);
+
+	for ( ; *haystack != 0; haystack++)
 	{
-		if (haystack[i] == needle[j])
+		if (*haystack != *j)
+			continue;
+
+		i = haystack;
+		while (1)
 		{
-			j++;
+			if (*j == 0)
+			{
+				return ((char *) haystack);
+			}
+			if (*i++ != *j++)
+			{
+				break;
+			}
 		}
-		i++;
+		j = needle;
 	}
-	return (haystack + j);
+	return ('\0');
 }
