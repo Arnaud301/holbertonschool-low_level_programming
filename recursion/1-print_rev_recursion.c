@@ -1,25 +1,13 @@
 #include "main.h"
 /**
- *
- *
+ *_print_rev_recursion - function
+ *@s: char
  */
 void _print_rev_recursion(char *s)
 {
-	int i = 0;
-	
-	if (s != '\0' && i == 0)
+	if (*s)
 	{
-		s++;
-		if (s == '\0')
-		{
-			i++;
-		}
-		_print_rev_recurison(s);
-	}
-	if (s == '\0')
-	{
-		_putchar(s);
-		s--;
-		_print_rev_recursion(s);
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 }
