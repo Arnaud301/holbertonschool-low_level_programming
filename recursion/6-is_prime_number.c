@@ -18,7 +18,7 @@ int is_prime_number(int n)
  *@i: int
  *Return: prime number
  */
-int prime_checkeur(int n,int i)
+int prime_checkeur(int n, int i)
 {
 	if (i * i > n)
 	{
