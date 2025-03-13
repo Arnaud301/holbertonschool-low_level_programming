@@ -2,10 +2,10 @@
 #include <stddef.h>
 #include <stdlib.h>
 /**
- *
- *
- *
- *
+ *create_array - function
+ *@size: int
+ *@c: char
+ *Return: array
  */
 char *create_array(unsigned int size, char c)
 {
