@@ -1,9 +1,8 @@
 #include "lists.h"
 /**
- *
- *
- *
- *
+ *print_list - functions that prints the element of a list if theres one
+ *@h: the list
+ *Return: the last node we were in as an exemple in the fourth so we return 3
  */
 size_t print_list(const list_t *h)
 {
