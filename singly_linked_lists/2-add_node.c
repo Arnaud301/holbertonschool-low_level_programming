@@ -2,7 +2,8 @@
 /**
  *add_node - function that adds a node
  *@head: the start of the nod
- *@Return: result
+ *Return: result
+ *@str: str
  */
 list_t *add_node(list_t **head, const char *str)
 {
